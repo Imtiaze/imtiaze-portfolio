@@ -68,42 +68,28 @@
 	<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
 		<div class="w-100">
 
-		  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-			<div class="resume-content">
-			  <h3 class="mb-0">Problem</h3>
-			  <p>You want to generate a random number within a range of numbers.</p>
-				<div style="background: #ffffff; overflow:auto;width:auto;border:solid #00A65A;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
-					<blockquote>
-            <ol>
-              <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000088">$lower</font>&nbsp;<font color="#339933">=</font>&nbsp;<font color="#cc66cc">65</font><font color="#339933">;</font></li>
-              <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000088">$upper</font>&nbsp;<font color="#339933">=</font>&nbsp;<font color="#cc66cc">97</font><font color="#339933">;</font></li>
-              <li>&nbsp;</li>
-              <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000088">$randomNumber1</font>&nbsp;<font color="#339933">=</font>&nbsp;<font color="#990000">mt_rand</font><font color="#009900">&#40;</font><font color="#000088">$lower</font><font color="#339933">,</font>&nbsp;<font color="#000088">$upper</font><font color="#009900">&#41;</font><font color="#339933">;</font></li>
-              <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000088">$randomNumber2</font>&nbsp;<font color="#339933">=</font>&nbsp;<font color="#990000">mt_rand</font><font color="#009900">&#40;</font><font color="#009900">&#41;</font><font color="#339933">;</font></li>
-              <li>&nbsp;</li>
-              <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#b1b100">print</font>&nbsp;<font color="#0000ff">&quot;with&nbsp;range&nbsp;<font color="#006699">$randomNumber1</font>&quot;</font><font color="#339933">;</font></li>
-              <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#b1b100">print</font>&nbsp;<font color="#0000ff">&quot;<font color="#000099">\n</font>without&nbsp;range&nbsp;<font color="#006699">$randomNumber2</font>&quot;</font><font color="#339933">;</font></li>
-            </ol>
-          </blockquote>
-				</div>
-				<br>
-        <p>The example code prints:</p>
-        <div style="background: #ffffff; overflow:auto;width:auto;">
-          <img src="images/generating-random-numbers-within-a-range.png" alt="Valid Number Checking">
-			  </div>
-          <br><br>
-          <p>Generating random number is usefull:</p>
-          <ul>
-              <li>Display random image on a page</li>
-              <li>Randomize the starting position of game</li>
-              <li>Select a random record from a database</li>
-              <li>Generate unique session identifier</li>
-          </ul>
-          <br>
-          <p>Php has two differant random number generators, a classic function called rand() and a better function called mt_rand(). MT stands for Mersenne Twister, which is named after the Frech monk and mathematician Marin Mersenne. mt_rand() is less predictable and faster than rand().</p>
-			 </div>
-      </div>
-          
+		    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">Problem</h3>
+                    <p>You want to take the logarithm of a number</p>
+                    <div style="background: #ffffff; overflow:auto;width:auto;border:solid #00A65A;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                        <blockquote>
+                            <ol>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000088">$log</font>&nbsp;<font color="#339933">=</font>&nbsp;<font color="#990000">log</font><font color="#009900">&#40;</font><font color="#cc66cc">10</font><font color="#009900">&#41;</font><font color="#339933">;</font></li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#b1b100">print</font>&nbsp;<font color="#000088">$log</font><font color="#339933">;</font></li>
+                                <li>&nbsp;</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000088">$log</font>&nbsp;<font color="#339933">=</font>&nbsp;<font color="#990000">log10</font><font color="#009900">&#40;</font><font color="#cc66cc">30</font><font color="#009900">&#41;</font><font color="#339933">;</font></li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#b1b100">print</font>&nbsp;<font color="#0000ff">&quot;<font color="#000099">\n</font><font color="#006699">$log</font>&quot;</font><font color="#339933">;</font></li>
+                            </ol>
+                        </blockquote>
+                    </div>
+                    <br>
+                    <p>The example code prints:</p>
+                    <img src="images/taking-logrithms.png" alt="Valid Number Checking">
+                    <br><br>
+                </div>
+            </div>
+          <!-- <p>Both the log() and log10() are defined only for numbers that are greater than zero. If you pass in a nummber equal to or less than zero, thy return NAN, which stands for not a number</p> -->
 		</div>
   
 	  </section>
